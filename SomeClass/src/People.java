@@ -3,13 +3,16 @@
  */
 public class People implements MyInterface {
 
+
+
+
     @Override
-    public String name() {
-        return null;
+    public String name(String name) {
+        return name;
     }
 
     @Override
-    public int age() {
-        return 0;
+    public int age(int age) {
+        return age;
     }
 }
